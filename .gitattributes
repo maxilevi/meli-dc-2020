@@ -1,0 +1,3 @@
+/data/*.jl filter=lfs diff=lfs merge=lfs -text
+/data/*.csv filter=lfs diff=lfs merge=lfs -text
+/data/*.pickle filter=lfs diff=lfs merge=lfs -text

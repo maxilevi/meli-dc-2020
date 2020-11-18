@@ -1,0 +1,5 @@
+data/index/*
+.ipynb_checkpoints/
+__pycache__/
+data/embeddings/
+submit.csv
