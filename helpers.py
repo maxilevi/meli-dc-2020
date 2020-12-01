@@ -36,6 +36,12 @@ def load_interactions_df():
 def load_interactions_test_df():
     return pd.read_csv(INTERACTIONS_TEST_PATH)
 
+def load_interactions_full_df():
+    return pd.read_csv('./data/interactions_train_full.csv')
+
+def load_interactions_test_full_df():
+    return pd.read_csv('./data/interactions_test_full.csv')
+
 def load_interactions_unprocessed_df():
     return pd.read_csv('./data/interactions.csv')
 
